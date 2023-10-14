@@ -125,7 +125,7 @@ header-includes:
 
 ![Компиляция отчета](image/pic12.jpg){#fig:013 width=70%}
 
-Загрузим файлы на Github с помощью команд                                                                                         git add .                                                                                                                          git commit -am 'feat(main): add files lab-2'                                                                                      git push                                                                                                                          И проверим их наличие на странице репозитория(рис. @fig:014).
+Загрузим файлы на Github с помощью команды "git add ." , команды "git commit -am 'feat(main): add files lab-02'" и "git push".И проверим их наличие на странице репозитория(рис. @fig:014).
 
 ![Файлы отчета по ЛР2 на Github](image/pic14.jpg){#fig:014 width=70%}
  
