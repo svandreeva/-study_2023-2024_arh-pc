@@ -16,7 +16,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -56,7 +55,6 @@ figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -110,22 +108,26 @@ header-includes:
 
 ![Проверка корректности файлов](image/pic9.jpg){#fig:009 width=70%}
 
-Загрузим файлы на Github. 
+Загрузим файлы на Github(рис. @fig:010) . 
+
+![Загрузка файлов на Github](image/pic13.jpg){#fig:010 width=70%}
 
 
 # Задание для самостоятельной работы.
 
-В соответствующем каталоге сделаем отчёт по лабораторной работе № 2 в формате Markdown.Для этого переходим в соответствующий каталог и открываем текстовый редактор (рис. @fig:010).
+В соответствующем каталоге сделаем отчёт по лабораторной работе № 2 в формате Markdown.Для этого переходим в соответствующий каталог и открываем текстовый редактор (рис. @fig:011).
 
-![Текстовый редактор](image/pic10.jpg){#fig:010 width=70%}
+![Текстовый редактор](image/pic10.jpg){#fig:011 width=70%}
 
-Заполним отчет,скомпилируем его (рис. @fig:011) (рис. @fig:012).
+Заполним отчет,скомпилируем его (рис. @fig:012) (рис. @fig:013).
 
-![Заполнение отчета](image/pic11.jpg){#fig:011 width=70%}
+![Заполнение отчета](image/pic11.jpg){#fig:012 width=70%}
 
-![Компиляция отчета](image/pic12.jpg){#fig:012 width=70%}
+![Компиляция отчета](image/pic12.jpg){#fig:013 width=70%}
 
-Загрузим файлы на Github.
+Загрузим файлы на Github с помощью команд                                                                                         git add .                                                                                                                          git commit -am 'feat(main): add files lab-2'                                                                                      git push                                                                                                                          И проверим их наличие на странице репозитория(рис. @fig:014).
+
+![Файлы отчета по ЛР2 на Github](image/pic14.jpg){#fig:014 width=70%}
  
 # Выводы
 
